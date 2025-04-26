@@ -43,7 +43,8 @@ function App() {
 
   return (
     <>
-      <div className='bg-gray-800 h-screen flex justify-center items-center'>
+      <div className='bg-gray-800 h-screen flex flex-col justify-center items-center'>
+        <img src="weatherly.png" alt="weatherly logo block" />
         <div className='bg-white w-94 rounded-lg px-4 py-6 flex justify-center items-center flex-col'>
           <div className='relative w-full'>
             <input type="text" onChange={(e) => setTempcity(e.target.value)} onKeyDown={e => handleClick(e)} className=' border-2 border-solid capitalize border-sky-400 rounded-lg w-full p-4 h-10 focus:border-sky-400  focus:outline-sky-400 ' />
